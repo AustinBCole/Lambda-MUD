@@ -148,6 +148,7 @@ def traversal_algo():
                 while len(current_room["items"]) > 0:
                     time.sleep(current_room["cooldown"])
                     take_treasure(current_room["items"][0])
+                    print(current_room['items'][0])
                     print(current_room)
 
                 # Append traversalPath list with direction
